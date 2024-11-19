@@ -69,7 +69,7 @@ async function pepe20Deploy() {
 
     const pepe20Tx = {
         p: "prc-20",
-        op: "deploy",
+        op: "mint",
         tick: `${argTicker.toLowerCase()}`,
         max: `${argMax}`,
         lim: `${argLimit}`
